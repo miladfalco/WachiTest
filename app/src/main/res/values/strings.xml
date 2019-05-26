@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WachiTest</string>
+    <string name="name_one_http">HTTP Requests</string>
+    <string name="name_two_http">Let’s start</string>
+    <string name="name_main_one">Send HTTP Requests</string>
+    <string name="name_main_two">Basic Authentication</string>
+    <string name="name_main_three">Send</string>
+    <string name="Successful_result">Successful</string>
+</resources>
