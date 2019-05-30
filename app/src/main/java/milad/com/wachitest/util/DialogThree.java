@@ -8,18 +8,17 @@ import android.widget.ImageView;
 
 import milad.com.wachitest.R;
 
-public class DialogOne {
-
+public class DialogThree {
     private Activity activity;
     private ImageView img_one, img_two;
 
-    public DialogOne(Activity activity) {
+    public DialogThree(Activity activity) {
         this.activity = activity;
     }
 
     public Dialog dialogBuild() {
         final Dialog dialog = new Dialog(activity);
-        dialog.setContentView(R.layout.result_dialog_one);
+        dialog.setContentView(R.layout.result_dialog_three);
         dialog.getWindow().setGravity(Gravity.BOTTOM);
         img_one = dialog.findViewById(R.id.img_dialog_one);
         img_two = dialog.findViewById(R.id.img_dialog_two);
@@ -33,3 +32,4 @@ public class DialogOne {
         return dialog;
     }
 }
+
